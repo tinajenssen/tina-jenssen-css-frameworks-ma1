@@ -1,0 +1,31 @@
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #262626;
+}
+
+.navbar{
+    background-color: var(--nav-color) !important; 
+}
+.container-fluid{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: var(--link-color) !important;
+    font-size: 18px;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+    color: var(--primary-color) !important;
+}
+
+.navbar-collapse{
+    z-index: 1;
+}
